@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" width="640" height="480">
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #90a7ff } 
+		.shp1 { fill: #ffffff } 
+		.shp2 { fill: #1f5cfd } 
+		.shp3 { fill: #fc241e } 
+		.txt4 { font-size: 19px;fill: #1a1a1a;font-weight: 600;font-family: "Poppins-SemiBold", "Poppins";text-anchor: middle } 
+		.txt5 { font-size: 47px;fill: #1a1a1a;font-weight: 700;font-family: "LuissSerif-Bold", "Luiss Serif";text-anchor: middle } 
+	</style>
+	<path id="Background" class="shp0" d="M0 0L640 0L640 480L0 480L0 0Z" />
+	<g id="Border-top">
+		<g id="strips">
+			<path id="Layer" class="shp1" d="M-21.52 0L23.67 0L73.71 53.26L28.51 53.26L-21.52 0ZM159.25 0L204.44 0L254.47 53.26L209.28 53.26L159.25 0ZM340.02 0L385.21 0L435.24 53.26L390.05 53.26L340.02 0Z" />
+			<path id="Layer" class="shp2" d="M68.86 0L114.06 0L164.09 53.26L118.9 53.26L68.86 0ZM249.63 0L294.82 0L344.86 53.26L299.67 53.26L249.63 0ZM430.4 0L475.59 0L525.63 53.26L480.43 53.26L430.4 0Z" />
+			<path id="Layer" class="shp3" d="M218.97 116.75L230.26 119.97L218.97 116.75Z" />
+		</g>
+		<g id="strips">
+			<path id="Layer" class="shp1" d="M515.52 0L560.71 0L610.75 53.26L565.55 53.26L515.52 0ZM696.29 0L741.48 0L791.51 53.26L746.32 53.26L696.29 0ZM877.06 0L922.25 0L972.28 53.26L927.09 53.26L877.06 0Z" />
+			<path id="Layer" class="shp2" d="M605.9 0L651.1 0L701.13 53.26L655.94 53.26L605.9 0ZM786.67 0L831.86 0L881.9 53.26L836.71 53.26L786.67 0ZM967.44 0L1012.63 0L1062.67 53.26L1017.47 53.26L967.44 0Z" />
+			<path id="Layer" class="shp3" d="M756.01 116.75L767.3 119.97L756.01 116.75Z" />
+		</g>
+	</g>
+	<g id="Border-bottom">
+		<g id="strips">
+			<path id="Layer" class="shp1" d="M661.52 480L616.33 480L566.29 426.74L611.49 426.74L661.52 480ZM480.75 480L435.56 480L385.53 426.74L430.72 426.74L480.75 480ZM299.98 480L254.79 480L204.76 426.74L249.95 426.74L299.98 480Z" />
+			<path id="Layer" class="shp2" d="M571.14 480L525.94 480L475.91 426.74L521.1 426.74L571.14 480ZM390.37 480L345.18 480L295.14 426.74L340.33 426.74L390.37 480ZM209.6 480L164.41 480L114.37 426.74L159.57 426.74L209.6 480Z" />
+			<path id="Layer" class="shp3" d="M421.03 363.25L409.74 360.03L421.03 363.25Z" />
+		</g>
+		<g id="strips">
+			<path id="Layer" class="shp1" d="M124.48 480L79.29 480L29.25 426.74L74.45 426.74L124.48 480ZM-56.29 480L-101.48 480L-151.51 426.74L-106.32 426.74L-56.29 480ZM-237.06 480L-282.25 480L-332.28 426.74L-287.09 426.74L-237.06 480Z" />
+			<path id="Layer" class="shp2" d="M34.1 480L-11.1 480L-61.13 426.74L-15.94 426.74L34.1 480ZM-146.67 480L-191.86 480L-241.9 426.74L-196.71 426.74L-146.67 480ZM-327.44 480L-372.63 480L-422.67 426.74L-377.47 426.74L-327.44 480Z" />
+			<path id="Layer" class="shp3" d="M-116.01 363.25L-127.3 360.03L-116.01 363.25Z" />
+		</g>
+	</g>
+	<text id="No lo dudes " style="transform: matrix(1,0,0,1,320,270.08)" >
+		<tspan x="0" y="0" class="txt4">No lo dudes</tspan>
+	</text>
+	<text id="Tenemos buena informacion " style="transform: matrix(1,0,0,1,320,241.88)" >
+		<tspan x="0" y="0" class="txt5">Tenemos buena informacion</tspan>
+	</text>
+</svg>

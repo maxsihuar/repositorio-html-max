@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #337eff } 
+		.shp1 { fill: #0051c6 } 
+		.shp2 { fill: #f8fffb } 
+		.shp3 { fill: #d8d8d8 } 
+	</style>
+	<g id="Layer">
+		<g id="Layer">
+			<path id="Layer" class="shp0" d="M256 512C114.43 512 0 397.57 0 256C0 114.43 114.43 0 256 0C397.57 0 512 114.43 512 256C512 397.57 397.57 512 256 512Z" />
+		</g>
+		<path id="Layer" class="shp1" d="M479.21 381.41L216.79 118.99L171.45 137.62L158.79 392.7L277.21 511.12C364.05 504 438.6 453.54 479.21 381.41Z" />
+		<g id="Layer">
+			<g id="Layer">
+				<path id="Layer" class="shp2" d="M367.35 334.7L367.35 392.7L158.79 392.7L158.79 118.99L216.79 118.99L216.79 334.7L367.35 334.7Z" />
+			</g>
+		</g>
+		<g id="Layer">
+			<g id="Layer">
+				<path id="Layer" class="shp3" d="M256 334.7L367.35 334.7L367.35 392.7L256 392.7L256 334.7Z" />
+			</g>
+		</g>
+	</g>
+</svg>

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="CSS/Estilo.css">
+  <link rel="stylesheet" type="text/css" href="CSSBoostrap/bootstrap.min.css">
+  <script type="text/javascript" src="JSBoostrap/bootstrap.min.js"></script>
+ <!-- <script type="text/javascript" src="JS/Propiedades.js"></script>-->
+  <script type="text/javascript" src="JSBoostrap/jquery-3.5.1.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="Image/icono.ico">
+  <title>Litosis</title>
+</head>
+<body>
+  <!--titulo-->
+<p class="margen"><center><h1 class="titulo">
+  Bienvenidos a Litosis
+</h1></center></p>
+ <!--barra de busqueda navbar-->
+ <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Bienvenidos a Litosis</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+        </li>
+         <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Temas en general
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="Animales.html">Animales</a></li>
+            <li><a class="dropdown-item" href="Electronica.html">Electronica</a></li>
+            <li><a class="dropdown-item" href="Enfermedades.html">Enfermedades</a></li>
+            <li><a class="dropdown-item" href="Anatomia.html">Anatomia</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="Informatica.html">Informatica</a>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Enlaces.html">Enlaces</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Mas informacion
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="Creadores.html">Creadores</a></li>
+            <li><a class="dropdown-item" href="Nosotros.html">Nosotros</a></li>
+            <li><a class="dropdown-item" href="Cuenta.html">Crear cuenta o Inciar Sesion</a></li>
+            <li><a class="dropdown-item" href="Ayuda.html">Ayuda</a></li>
+            <li><hr class="dropdown-divider" ></li>
+            <li><a class="dropdown-item" href="Descargar.html">Descargar codigo fuente</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Gracias por usar la pagina</a>
+        </li>
+      </ul>
+    </div>
+     <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Buscar</button>
+      </form>
+  </div>
+</nav>
+<!--imagenes-->
+<div class="columnas">
+  <div>
+    
+  </div>
+<div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="10000" id="carrosel">
+      <img src="Image/imagen.svg" class="d-block w-100" alt="..."/>
+    </div>
+    <div class="carousel-item" data-bs-interval="1000" id="carrosel">
+      <img src="Image/imagen2.svg" class="d-block w-100" alt="lee el texto"/>
+    </div>
+    <div class="carousel-item" id="carrosel">
+      <img src="Image/imagen3.svg" class="d-block w-100" alt="..."/>
+    </div>
+    <div class="carousel-item"id="carrosel">
+      <img src="Image/imagen4.svg" class="d-block w-100" alt="..."/>
+    </div>
+  </div>
+
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"  data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"  data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</div>
+
+<div class="texto-general">
+  <div></div>
+  <!--texto-->
+  <div>
+    <p class="divisores"> Hola usuario te doy la bienvenida a <strong>Litosis</strong>
+  un lugar donde podrás encontrar todo la información de requieres, <strong>Litosis</strong>
+  quieres mejorar tu experiencia como usuario permitiéndote navegar con facilidad.
+  Ahora te toca a ti explorar este mundo de conocimiento con ayuda de <strong>Litosis</strong>
+  e infórmate de todo lo que quieras saber. Si tienes dudas de como se utiliza o encontraste algún error 
+  puedes ir a la pestaña de <a href="Ayuda.html">Ayuda</a></p>
+    <p class="divisores"></p>
+    <p class="divisores"></p>
+  </div>
+<div>
+<div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="toast-header">
+<div class="mensaje-toasts"></div>
+    <strong class="me-auto">Bootstrap</strong>
+    <small class="text-muted">1 mins ago</small>
+    <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+  </div>
+  </div
+  <div class="toast-body">
+    bienvenido a litosis
+  </div>
+</div>
+</div>
+<!--pie de pagina-->
+<div class="footer">
+  <div>
+  <img id="image-footer" src="Image/logo.svg"/>
+  <span>Lorem, ipsum dolor sit amet consectetur, adipisicing elit. Dolorem, totam.</span><br>
+  <span>Correo electronico.</span><br>
+  <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui eius omnis voluptatum.</span>
+  </div>
+  <div>
+  <span>Lorem, ipsum dolor sit amet, consectetur adipisicing elit. Iusto, illum.</span><br>
+  <a href="mailto:litosis.mj@gmail.com?subject=Envianos tus recomendaciones">litosis.mj@gmail.com</a>
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="/__/firebase/8.6.2/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<!-- Initialize Firebase -->
+<script src="/__/firebase/init.js"></script>
+</div>
+</body>
+</html>

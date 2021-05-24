@@ -1,0 +1,59 @@
+
+/*navba*/
+.container-fluid{
+    background-color: #64B5F6;
+    margin: 0px;
+    padding: 0px;
+}
+/*titulo principal*/
+.titulo{
+	font-family: cursive;
+	background-color: #64B5F6;
+	margin: 0px;
+	padding: 0px;
+
+}
+.accordion-item{
+	background-color:#DCE775;
+
+
+}
+.accordion-body{
+	background-color:#F0F4C3;
+	border: #689F38 3px solid;
+}
+.texto-general{
+	display: grid;
+	grid-template-columns: 20% 60% 20%;
+}
+.columnas{
+    display: grid;|
+	grid-template-columns: 10% 80% 10%;
+}
+.divisores{
+}
+.footer{
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-template-rows: 50% 20%;
+	font-family: Comic Helvetic;
+	background-color: #7F7F7FFF;
+	padding: 10px; 
+}
+#image-footer{
+	height: 25px;
+	width: 25px;
+	position: relative;
+}
+.imagen-cuenta{
+	height: 70px;
+	width: 70px;
+	margin: 10px;
+}
+.texto-nosotros{
+	font-family;cursive;
+}
+.mensaje-toasts{
+	background-color=red;
+	
+}
